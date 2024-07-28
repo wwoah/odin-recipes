@@ -1,0 +1,22 @@
+body{
+    background-color:rgb(88, 137, 243);
+
+    
+}   
+.right-side, .left-side, .index {
+    background-color: rgb(142, 176, 228);
+    border-color: rgb(13, 18, 77);
+    text-align: center;
+}
+
+
+ul,
+ol {
+    color: black;
+    display: inline-block;
+    text-align: left;
+}
+
+ul li, ol li {
+    margin-top:10px;
+}
