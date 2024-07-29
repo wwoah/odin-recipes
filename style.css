@@ -3,12 +3,39 @@ body{
 
     
 }   
-.right-side, .left-side, .index {
+h1 {
+    text-align: center;
+    padding: 15px;
+}
+
+.container {
+    display: inline-flex;
+}
+
+.container .left-side, .container .right-side {
     background-color: rgb(142, 176, 228);
-    border-color: rgb(13, 18, 77);
+    padding: 10px;
+    margin: 25px;
+    border:1px solid black;
     text-align: center;
 }
 
+
+.container .right-side {
+    height: 300px;
+    width: 300px;
+}
+
+
+
+/*
+.right-side, .left-side, .index {
+    background-color: rgb(142, 176, 228);
+    margin: 100px;
+    border-color: rgb(13, 18, 77);
+    text-align: center;
+}
+*/  
 
 ul,
 ol {
