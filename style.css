@@ -42,5 +42,19 @@ ol {
     text-align: left;
 }
 
-ul li, ol li {
+.index{
+    text-align: center;
+    background-color: grey;
+    border:3px solid darkgray;
+}
+
+
+.index h1 {
+    font-size: 42px;
+    border: 3px solid darkgray;
+    padding: 0px 0px;
+}
+
+.index ul { 
+    text-align: left;
 }
